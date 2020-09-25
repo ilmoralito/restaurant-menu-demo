@@ -6,19 +6,21 @@ import TabsView from "./components/TabsView";
 import Recipe from "./components/Recipe";
 import initialState from "./data/dataset.json";
 
+function getInitialState() {
+  const data = {};
+
+  for (const dataKey in initialState) {
+    data[dataKey] = initialState[dataKey].map(entry => ({
+      ...entry,
+      quantity: 0
+    }));
+  }
+
+  return data;
+}
+
 function App() {
-  const [data, setData] = useState(() => {
-    const data = {};
-
-    for (const dataKey in initialState) {
-      data[dataKey] = initialState[dataKey].map(entry => ({
-        ...entry,
-        quantity: 0
-      }));
-    }
-
-    return data;
-  });
+  const [data, setData] = useState(getInitialState());
   const [viewType, setViewType] = useState("list");
   const [recipe, setRecipe] = useState([]);
 
@@ -73,7 +75,6 @@ function App() {
     }
 
     setData(newData);
-    console.log(JSON.stringify(newData, null, 2));
 
     // update recipe
     setRecipe(recipe.filter(service => service.id !== id));
