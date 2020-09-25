@@ -23,6 +23,7 @@ function App() {
   const [data, setData] = useState(getInitialState());
   const [viewType, setViewType] = useState("list");
   const [recipe, setRecipe] = useState([]);
+  const [sales, setSales] = useState([]);
 
   function onChangeViewTypeHandler(type) {
     setViewType(type);
@@ -80,9 +81,28 @@ function App() {
     setRecipe(recipe.filter(service => service.id !== id));
   }
 
+  function onSubmitHandler(customer) {
+    const payload = {
+      meta: {
+        date: new Date(),
+        seller: "John McKlein"
+      },
+      customer,
+      recipe
+    };
+
+    setSales([payload, ...sales]);
+    setRecipe([]);
+    setData(getInitialState());
+  }
+
   return (
     <>
-      <Toolbar viewType={viewType} onChangeViewType={onChangeViewTypeHandler} />
+      <Toolbar
+        sales={sales}
+        viewType={viewType}
+        onChangeViewType={onChangeViewTypeHandler}
+      />
       <div className="container">
         <div className="menu">
           {viewType === "list" ? (
@@ -92,7 +112,11 @@ function App() {
           )}
         </div>
         <div className="recipe">
-          <Recipe data={recipe} onReset={onResetHandler} />
+          <Recipe
+            data={recipe}
+            onReset={onResetHandler}
+            onSubmitHandler={onSubmitHandler}
+          />
         </div>
       </div>
     </>

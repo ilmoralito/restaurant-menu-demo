@@ -14,6 +14,10 @@ function Language() {
   );
 }
 
+function SaleList() {
+  return <button onClick={alert("display current sales")}>Sales</button>;
+}
+
 function ViewTabs({ viewType, onChangeViewType }) {
   function isActive(type) {
     return viewType === type ? style.active : "no-active";
@@ -37,10 +41,11 @@ function ViewTabs({ viewType, onChangeViewType }) {
   );
 }
 
-export default function Toolbar({ viewType, onChangeViewType }) {
+export default function Toolbar({ sales, viewType, onChangeViewType }) {
   return (
     <div className={style.toolbar}>
       <AppTitle />
+      {sales.length > 0 && <SaleList />}
       <ViewTabs viewType={viewType} onChangeViewType={onChangeViewType} />
     </div>
   );
