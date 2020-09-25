@@ -1,0 +1,28 @@
+button {
+  border: 1px solid gray;
+}
+
+.center {
+  text-align: center;
+}
+
+.forty {
+  width: 40%;
+}
+
+.thirty {
+  width: 30%;
+}
+
+.ten {
+  width: 10%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons button {
+  margin-right: 5px;
+}

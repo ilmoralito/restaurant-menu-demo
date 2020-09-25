@@ -1,0 +1,226 @@
+{
+  "Sopas y cremas": [
+    {
+      "id": 1,
+      "name": "BISQUE DE LANGOSTINO",
+      "price": 9.0,
+      "description": "Camarón, azafrán, brandy, mantequilla y crema dulce. / Shrimp, saffron, brandy, butter and sweet cream."
+    },
+    {
+      "id": 2,
+      "name": "CALDO DE RES",
+      "price": 5.5,
+      "description": "Costillas de res selec  cionadas y un toque de jerez. / Selected beef ribs with a little bit of sherry."
+    },
+    {
+      "id": 3,
+      "name": "CALDO DE POLLO",
+      "price": 5.0,
+      "description": "Papas, fideos con un toque de culantro freso / Potatoes, noodles and a little bit of fresh cilantro."
+    },
+    {
+      "id": 4,
+      "name": "CREMA DE TORTILLA",
+      "price": 6.35,
+      "description": "Tomate, cebolla, culantro, consomé de pollo, tortillas fritas hierba buena. / Tortilla cream, tomato, onion, cilantro, chicken soup, fried tortillas and peppermint."
+    }
+  ],
+  "Ensaladas": [
+    {
+      "id": 5,
+      "name": "ENSALADA CÉSAR CON CAMARONES",
+      "price": 14.49,
+      "description": "Lechuga romana, camarones, crot  ones y queso parmesano. / Romaine lettuce, shrimps, croutons and parmesan cheese."
+    },
+    {
+      "id": 6,
+      "name": "ENSALADA CÉSAR CON POLLO",
+      "price": 12.08,
+      "description": "Lechuga romana, pechuga de pollo, crotones y queso\nparmesano. / Romaine lettuce, chicken breast, croutons and\nparmesan cheese."
+    },
+    {
+      "id": 7,
+      "name": "ENSALADA PALMITO",
+      "price": 12.0,
+      "description": "Lechuga, tomate, palmitos, cebolla morada y aderezo de la\ncasa. / Lettuce, tomato, hearts of palm, purple onion and with\nhouse dressing."
+    },
+    {
+      "id": 8,
+      "name": "ENSALADA MEDIANA",
+      "price": 3.8,
+      "description": "Tomate, lechuga, zanahoria, cebolla morada, pepino y aderezo\nde la casa. / Tomato, lettuce, carrots, purple onion, cucumber\nand house dressing."
+    },
+    {
+      "id": 9,
+      "name": "ENSALADA AZTECA",
+      "price": 7.5,
+      "description": "Deliciosa ensalada azteca con tortillas fritas, tomate, cebolla\nmorada, tocino, chiltoma, aguacate y lechuga. / Aztec salad,\ntortillas ships, tomato, purple onion, bacon, pepper, avocado\nand lettuce."
+    },
+    {
+      "id": 10,
+      "name": "ENSALADA CÉSAR",
+      "price": 8.0,
+      "description": "Lechuga romana mezclada con aderezo césar, crotones y queso\nparmesano. / Romaine lettuce mixed with cesar dressing,\ncroutons and parmesan cheese."
+    },
+    {
+      "id": 11,
+      "name": "ENSALADA MIXTA",
+      "price": 7.5,
+      "description": "Lechugas mixtas, palmito, espárragos, tomate, aceitunas y\naderezo de la casa. / Mixed lettuce, heart of palm, asparagus,\ntomato, olives and house dressing."
+    },
+    {
+      "id": 12,
+      "name": "PLATO VEGETARIANO ESPECIAL",
+      "price": 22.0,
+      "description": "Hongo Portobello, queso manchego, tomate manzano, cebolla\nmorada y aceitunas. / Portobello mushroom, manchego cheese,\ntomato, purple onion and olives."
+    },
+    {
+      "id": 13,
+      "name": "ENSALADA CAPRESE",
+      "price": 8.0,
+      "description": "Rodajas de tomates manzano, con medallones de queso\nmozzarella y pesto de la casa. / Tomatoes slices with mozzarella\nand homemade pesto."
+    }
+  ],
+  "Entradas calientes": [
+    {
+      "id": 14,
+      "name": "RABO DE BUEY",
+      "price": 6.5,
+      "description": "Hecho con cebolla, tomate, vino blanco y caldo de res. / Made\nwith onion, tomato, white wine and beef broth."
+    },
+    {
+      "id": 15,
+      "name": "MOLLEJAS",
+      "price": 8.95,
+      "description": "Mollejas asadas al carbón acompañadas de tortillas. / Grilled\ngizzard served with tortilla."
+    },
+    {
+      "id": 16,
+      "name": "PULPO SALTEADO AL AJILLO",
+      "price": 14.0,
+      "description": "Pulpo salteado con aceite de oliva, ajo, pimentón, chile seco,\nvino blanco y limón, servidos con pan. / Octopus sautéed with\nolive oil, garlic, peppers, dried chili, white wine and lemon,\nserved with bread."
+    },
+    {
+      "id": 17,
+      "name": "EMPANADAS ARGENTINAS",
+      "price": 4.25,
+      "description": "Cuatro empanadas artesanales al estilo argentino rellenas\nde carne o pollo. / Four homemade argentinian empanadas\nstuffed with meat or chicken."
+    },
+    {
+      "id": 18,
+      "name": "MEDIA ORDEN DE EMPANADAS ARGENTINAS",
+      "price": 2.5,
+      "description": "Dos empanadas artesanales al estilo argentino rellenas de\ncarne o pollo. / Two homemade argentinian empanadas stuffed\nwith meat or chicken."
+    },
+    {
+      "id": 19,
+      "name": "CALAMARES AL AJO CROCANTE (PARA DOS)",
+      "price": 15.0,
+      "description": "Calamares empanizados marinados en salsa Leansperring y\nsalsa tártara. / Breaded squid marinated in Leansperring sauce\nand tartar sauce."
+    },
+    {
+      "id": 20,
+      "name": "CALLOS A LA MADRILEÑA",
+      "price": 10.0,
+      "description": "Receta tradicional de España a base de callos de vaca, chorizo,\ngarbanzo, tomate, cebolla y chiltoma. / Spanish food based on\ntripe, sausage, chickpeas, tomatoe, onion and pepper."
+    },
+    {
+      "id": 21,
+      "name": "TORTILLA ESPAÑOLA",
+      "price": 9.66,
+      "description": "Plato básico de la cocina española a base de papas, huevos y\ncebolla. / Spanish food based on potatoes, eggs and onion."
+    },
+    {
+      "id": 22,
+      "name": "CHIPIRONES AL AJILLO",
+      "price": 12.08,
+      "description": "Chipirones o calamares salteados con aceite de oliva, vino\nblanco, limón, pimentón y chile seco, servidos con pan. / Squid\nsautéed with olive oil, white wine, lemon, red pepper and dried\nchili, served with bread."
+    },
+    {
+      "id": 23,
+      "name": "HONGOS PORTOBELLOS",
+      "price": 15.49,
+      "description": "Hongos Portobellos salteados en mantequilla, ajo, perejil, vino\nblanco y un toque de brandy, servidos con pan. / Portobello\nMushrooms sautéed in butter, garlic, parsley, white wine and a\ntouch of brandy, served with bread."
+    },
+    {
+      "id": 24,
+      "name": "CEBOLLINES A LA PARILLA",
+      "price": 4.23,
+      "description": "Deliciosos cebollines preparados con limón y sal hechos a la\nparrilla. / Grilled scallions made with lemon and salt."
+    },
+    {
+      "id": 25,
+      "name": "CAMARONES AL AJO CROCANTES (PARA DOS)",
+      "price": 18.0,
+      "description": "Camarones empanizados marinados en salsa Leansperring\ny salsa tártara. / Breaded shirmp marinated in Leansperring\nsauce and tartar sauce."
+    },
+    {
+      "id": 26,
+      "name": "PULPO A LA GALLEGA",
+      "price": 14.0,
+      "description": "Pulpo cocido con un poco de paprika y láminas de ajo\nacompañado de papa cocidas. / Boiled octopus with paprika\nand garlic served with baked potato."
+    },
+    {
+      "id": 27,
+      "name": "TACOS DE MOLLEJA",
+      "price": 8.5,
+      "description": "Mollejas salteada, servido con guacamole, salsa mexicana,\npico de gallo, cebolla y culantro picado. Sautted gizzard\nserved with guacamole, mexican sauce, pico de gallo, onion\nand chopped cilantro."
+    }
+  ],
+  "Entradas frias": [
+    {
+      "id": 28,
+      "name": "ANTIPASTO IBÉRICO",
+      "price": 57.5,
+      "description": "Jamón ibérico, salchichón ibérico, chorizo ibérico, chorizo\nespañol, queso manchego y aceitunas. / Iberian ham, Iberian\nsalami, Iberian sausage, Spanish sausage, manchego cheese\nand olives."
+    },
+    {
+      "id": 29,
+      "name": "JAMÓN IBÉRICO",
+      "price": 30,
+      "description": "Iberian Ham."
+    },
+    {
+      "id": 30,
+      "name": "CARPACCIO DE SALMÓN AHUMADO",
+      "price": 15.0,
+      "description": "Salmón ahumado, aguacate, alcaparra, aceite de oliva, queso\nparmesano y limón. / Smoked salmon, avocado, caper, olive oil,\nparmesan cheese and lemon."
+    },
+    {
+      "id": 31,
+      "name": "QUESO MANCHEGO",
+      "price": 9.66,
+      "description": "Manchego cheese."
+    },
+    {
+      "id": 32,
+      "name": "CARPACCIO DE SALMÓN",
+      "price": 14.49,
+      "description": "Salmón fresco cortado finamente, alcaparra, queso parmesano,\naceite de oliva y cebolla morada. Fresh salmon, capers,\nparmesan cheese, olive oil and purple onion."
+    },
+    {
+      "id": 33,
+      "name": "CARPACCIO DE ATÚN",
+      "price": 13.0,
+      "description": "Atún fresco, queso parmesano, alcaparra, aceite de oliva y\nvinagreta de eneldo. / Fresh tuna, parmesan cheese, caper,\nolive oil and dill vinaigrette."
+    },
+    {
+      "id": 34,
+      "name": "TARTAR STEAK",
+      "price": 15.0,
+      "description": "Carne finamente picada con alcaparra, huevo, cebolla,\nsalsa inglesa, mostaza dijón y limón servida con tostada.\nMinced beef with capers, egg, onion, worcestershire sauce,\ndijon mustard and lemon served with toast."
+    },
+    {
+      "id": 35,
+      "name": "CARPACCIO DE RES",
+      "price": 12.0,
+      "description": "Res cortada finamente, alcaparra, quezo parmesano, aceite de oliva, limón y cebolla morada. / Tender beef with capers,\nparmesan cheese, olive oil, lemon and purple onion."
+    },
+    {
+      "id": 36,
+      "name": "CARPACCIO DE PULPO",
+      "price": 12.08,
+      "description": "Aceite de oliva, alcaparras, aceitunas, cebolla, limón, queso\nparmesano y pimentón rojo. / Octopus with olive oil, capers,\nolives, onion, lemon, parmesan cheese and red pepper."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+.tabs {
+  display: flex;
+  padding: 0;
+  margin-bottom: -1px;
+  list-style: none;
+}
+
+.tab {
+  padding: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  border: 1px solid gray;
+}
+
+.tab.active {
+  border-bottom: 2px solid white;
+}

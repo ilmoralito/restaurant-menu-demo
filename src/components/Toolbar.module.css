@@ -1,0 +1,29 @@
+button {
+  background-color: white;
+  border: 1px solid white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background: tomato;
+  padding: 10px;
+}
+
+.view-type,
+.language {
+  margin: 5px;
+}
+
+.app-title {
+  color: white;
+  font-weight: bold;
+}
+
+.active {
+  background-color: #444444;
+  color: white;
+}
