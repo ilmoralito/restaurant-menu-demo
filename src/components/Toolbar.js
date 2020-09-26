@@ -14,8 +14,8 @@ function Language() {
   );
 }
 
-function SaleList() {
-  return <button onClick={alert("display current sales")}>Sales</button>;
+function SaleListButton({ onToggleSales }) {
+  return <button onClick={onToggleSales}>Sales</button>;
 }
 
 function ViewTabs({ viewType, onChangeViewType }) {
@@ -41,11 +41,16 @@ function ViewTabs({ viewType, onChangeViewType }) {
   );
 }
 
-export default function Toolbar({ sales, viewType, onChangeViewType }) {
+export default function Toolbar({
+  sales,
+  viewType,
+  onChangeViewType,
+  onToggleSales
+}) {
   return (
     <div className={style.toolbar}>
       <AppTitle />
-      {sales.length > 0 && <SaleList />}
+      {sales.length > 0 && <SaleListButton onToggleSales={onToggleSales} />}
       <ViewTabs viewType={viewType} onChangeViewType={onChangeViewType} />
     </div>
   );

@@ -100,7 +100,11 @@ function SaleConfirmForm({ onCancelSale, onSubmitHandler }) {
 }
 
 function SaleConfirmButton({ onConfirmSale }) {
-  return <button onClick={onConfirmSale}>Confirm</button>;
+  return (
+    <button style={{ marginBottom: "10px" }} onClick={onConfirmSale}>
+      Confirm
+    </button>
+  );
 }
 
 function Total({ data }) {

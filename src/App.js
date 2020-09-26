@@ -4,6 +4,7 @@ import Toolbar from "./components/Toolbar";
 import ListView from "./components/ListView";
 import TabsView from "./components/TabsView";
 import Recipe from "./components/Recipe";
+import Sales from "./components/Sales";
 import initialState from "./data/dataset.json";
 
 function getInitialState() {
@@ -23,6 +24,7 @@ function App() {
   const [data, setData] = useState(getInitialState());
   const [viewType, setViewType] = useState("list");
   const [recipe, setRecipe] = useState([]);
+  const [showSales, setShowSales] = useState(false);
   const [sales, setSales] = useState([]);
 
   function onChangeViewTypeHandler(type) {
@@ -84,11 +86,14 @@ function App() {
   function onSubmitHandler(customer) {
     const payload = {
       meta: {
-        date: new Date(),
+        timestamp: Date.now(),
         seller: "John McKlein"
       },
       customer,
-      recipe
+      recipe: recipe.map(entry => ({
+        ...entry,
+        subTotal: +entry.quantity * entry.price
+      }))
     };
 
     setSales([payload, ...sales]);
@@ -96,12 +101,20 @@ function App() {
     setData(getInitialState());
   }
 
+  function onToggleSalesHandler() {
+    setShowSales(!showSales);
+  }
+
   return (
     <>
+      {showSales && (
+        <Sales sales={sales} onToggleSales={onToggleSalesHandler} />
+      )}
       <Toolbar
         sales={sales}
         viewType={viewType}
         onChangeViewType={onChangeViewTypeHandler}
+        onToggleSales={onToggleSalesHandler}
       />
       <div className="container">
         <div className="menu">

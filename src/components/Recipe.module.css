@@ -6,6 +6,10 @@ button {
   border: 1px solid gray;
 }
 
+button:hover {
+  background-color: gray;
+}
+
 .center {
   text-align: center;
 }
@@ -46,9 +50,7 @@ button {
 }
 
 .form form {
-  border: 1px solid #dddddd;
   padding: 15px;
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 .errors {
