@@ -85,6 +85,7 @@ function App() {
 
   function onSubmitHandler(customer) {
     const payload = {
+      id: Date.now(),
       meta: {
         timestamp: Date.now(),
         seller: "John McKlein"

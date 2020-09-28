@@ -15,3 +15,19 @@
 .sales table {
   width: 50%;
 }
+
+.sales button {
+  align-self: flex-start;
+}
+
+.center {
+  text-align: center;
+}
+
+.active {
+  background-color: #dddddd;
+}
+
+.no-active {
+  background-color: white;
+}
